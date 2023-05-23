@@ -20,7 +20,14 @@
         table {
             border-collapse: collapse;
             margin: auto;
-            width: 600px;
+            width: 550px;
+            height: 400px;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
         }
 
         td, th {
@@ -33,7 +40,7 @@
 
 </head>
 <body>
-    <h1>Exercício de Tabelas/h1>
+    <h1>Exercício de Tabelas </h1>
 
     <table>
         <caption>
@@ -43,12 +50,12 @@
             <tr>
                 <th scope="col">Grupos</th>
                 <th scope="col">Nomes</th>
-                <th colspan="3" scope="col">Filmes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3" scope="row">Mulheres</th>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td> Rambo</td>
@@ -67,7 +74,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <th rowspan="3" scope="row">Homens</th>
+                <th rowspan="3" scope="rowgroup">Homens</th>
                 <td>Bruno Mendonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
